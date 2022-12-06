@@ -1,0 +1,13 @@
+{
+  "item.lithereal.litherite_crystal": "Litherite Crystal",
+  "item.lithereal.litherite_sword": "Litherite Sword",
+  "item.lithereal.litherite_axe": "Litherite Axe",
+  "item.lithereal.litherite_pickaxe": "Litherite Pickaxe",
+  "item.lithereal.litherite_shovel": "Litherite Shovel",
+  "item.lithereal.litherite_hoe": "Litherite Hoe",
+
+  "block.lithereal.litherite_ore": "Litherite Ore",
+  "block.lithereal.deepslate_litherite_ore": "Deepslate Litherite Ore",
+
+  "itemGroup.lithereal_tab": "Lithereal"
+}

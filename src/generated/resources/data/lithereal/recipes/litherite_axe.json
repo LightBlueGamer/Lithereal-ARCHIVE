@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "item": "lithereal:litherite_crystal"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "LL",
+    "LS",
+    " S"
+  ],
+  "result": {
+    "item": "lithereal:litherite_axe"
+  }
+}
