@@ -70,5 +70,48 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_litherite_crystal", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.LITHERITE_CRYSTAL.get()).build()))
                 .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(ModBlocks.INFUSED_COAL_BLOCK.get())
+                .define('C', ModItems.INFUSED_COAL.get())
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .unlockedBy("has_infused_coal", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.INFUSED_COAL.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.LITHERITE_CHESTPLATE.get())
+                .define('C', ModItems.LITHERITE_CRYSTAL.get())
+                .pattern("C C")
+                .pattern("CCC")
+                .pattern("CCC")
+                .unlockedBy("has_litherite_crystal", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.LITHERITE_CRYSTAL.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.LITHERITE_BOOTS.get())
+                .define('C', ModItems.LITHERITE_CRYSTAL.get())
+                .pattern("C C")
+                .pattern("C C")
+                .unlockedBy("has_litherite_crystal", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.LITHERITE_CRYSTAL.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.LITHERITE_HELMET.get())
+                .define('C', ModItems.LITHERITE_CRYSTAL.get())
+                .pattern("CCC")
+                .pattern("C C")
+                .unlockedBy("has_litherite_crystal", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.LITHERITE_CRYSTAL.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.LITHERITE_LEGGINGS.get())
+                .define('C', ModItems.LITHERITE_CRYSTAL.get())
+                .pattern("CCC")
+                .pattern("C C")
+                .pattern("C C")
+                .unlockedBy("has_litherite_crystal", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.LITHERITE_CRYSTAL.get()).build()))
+                .save(pFinishedRecipeConsumer);
     }
 }

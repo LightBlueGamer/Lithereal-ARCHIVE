@@ -1,9 +1,7 @@
 package net.litecraft.lithereal.datagen;
 
 import net.litecraft.lithereal.Lithereal;
-import net.minecraft.core.Registry;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.tags.TagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -20,6 +18,7 @@ public class DataGenerators {
         generator.addProvider(true, new ModLootTableProvider(generator));
         generator.addProvider(true, new ModBlocksStateProvider(generator, existingFileHelper));
         generator.addProvider(true, new ModItemModelProvider(generator, existingFileHelper));
-        generator.addProvider(true, new ModTagProvider(generator, existingFileHelper));
+        generator.addProvider(true, new ModBlockTagProvider(generator, existingFileHelper));
+        generator.addProvider(true, new ModLanguageProvider(generator));
     }
 }

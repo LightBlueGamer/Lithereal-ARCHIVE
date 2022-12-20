@@ -1,7 +1,16 @@
-// 1.19.2	2022-12-05T18:55:47.8681068	Block States: lithereal
+// 1.19.2	2022-12-07T17:35:28.651254	Block States: lithereal
 2a27889d88d967fced4588c95fd8249139cc6056 assets/lithereal/blockstates/deepslate_litherite_ore.json
+ca68fdf95b1ce55a5c27b02110068c5026af108d assets/lithereal/blockstates/infused_coal_block.json
+0ad718caaaf9b0dde87fa544e6bb422ea146ebaa assets/lithereal/blockstates/infused_coal_ore.json
+36681c68694cd76fce5fb4fae18035e9880c62a8 assets/lithereal/blockstates/infused_deepslate_coal_ore.json
 4d7e22458610093cc09b6ff923fd8f83da906e00 assets/lithereal/blockstates/litherite_ore.json
 e6542d91e58903fb7d9b6d2a824b79a17d12e4dc assets/lithereal/models/block/deepslate_litherite_ore.json
+b607065a32f6191fa2216fc3a5085b307ed7b720 assets/lithereal/models/block/infused_coal_block.json
+3aa852cb62ce21ff2a1af36110b98e59131a52c5 assets/lithereal/models/block/infused_coal_ore.json
+a4f3133c1d1785e5448fbb8226714430608688b3 assets/lithereal/models/block/infused_deepslate_coal_ore.json
 243aaa10bc7202b4cf32874cc170112de59e6d51 assets/lithereal/models/block/litherite_ore.json
 377eef05e6112eb67f7cb09454ed1ac93ac01763 assets/lithereal/models/item/deepslate_litherite_ore.json
+ef7105e00414da2201b906d7e945876d7bbeb7a3 assets/lithereal/models/item/infused_coal_block.json
+08edb2477d08c7568e6a3bba7dab5a577c055872 assets/lithereal/models/item/infused_coal_ore.json
+86468c942882ba8cea210bea0a265d27a3a6116d assets/lithereal/models/item/infused_deepslate_coal_ore.json
 d7955d080b9dc2e1d3a1a9e4c7d9b006eca70658 assets/lithereal/models/item/litherite_ore.json

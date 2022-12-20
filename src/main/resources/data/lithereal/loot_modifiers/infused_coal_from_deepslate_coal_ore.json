@@ -1,0 +1,10 @@
+{
+  "type": "lithereal:add_item",
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:deepslate_coal_ore"
+    }
+  ],
+  "item": "lithereal:infused_coal"
+}

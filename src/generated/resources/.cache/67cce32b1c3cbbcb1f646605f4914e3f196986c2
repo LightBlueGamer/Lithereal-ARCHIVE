@@ -1,3 +1,6 @@
-// 1.19.2	2022-12-05T18:55:47.8651056	LootTables
+// 1.19.2	2022-12-07T17:35:28.6492545	LootTables
 287ae0ff4fcafc2cd061922e68bc3364c28afe16 data/lithereal/loot_tables/blocks/deepslate_litherite_ore.json
+cbdfa7d6b6ab22407eb61fd8ac0194c81396b318 data/lithereal/loot_tables/blocks/infused_coal_block.json
+f781dfd1e22360d491dbfe9bea2aef5cd4957e50 data/lithereal/loot_tables/blocks/infused_coal_ore.json
+800074148e76f818ce0efbea70fdfe7b11ae6e7f data/lithereal/loot_tables/blocks/infused_deepslate_coal_ore.json
 56d74563e4320448d3b066efe9a88ffb5e4e7d90 data/lithereal/loot_tables/blocks/litherite_ore.json

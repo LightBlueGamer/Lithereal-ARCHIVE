@@ -18,6 +18,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.LITHERITE_CRYSTAL.get());
+        simpleItem(ModItems.INFUSED_COAL.get());
+
+        simpleItem(ModItems.LITHERITE_BOOTS.get());
+        simpleItem(ModItems.LITHERITE_LEGGINGS.get());
+        simpleItem(ModItems.LITHERITE_CHESTPLATE.get());
+        simpleItem(ModItems.LITHERITE_HELMET.get());
 
         handheldItem(ModItems.LITHERITE_AXE.get());
         handheldItem(ModItems.LITHERITE_PICKAXE.get());

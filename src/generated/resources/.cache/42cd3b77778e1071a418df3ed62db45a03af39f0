@@ -1,7 +1,12 @@
-// 1.19.2	2022-12-06T17:16:48.8896848	Item Models: lithereal
+// 1.19.2	2022-12-10T11:13:14.1764365	Item Models: lithereal
+9fba61d1e64145813224e8ddcfe8d78312970bcb assets/lithereal/models/item/infused_coal.json
 fc8202f36e756376a93271bd26059ee2b1e1b670 assets/lithereal/models/item/litherite_axe.json
+901c6ef2b212612c7756992f1a40a306cd913d70 assets/lithereal/models/item/litherite_boots.json
+e36296eb1cbf1828ba6cc4b52180a4286bfcf018 assets/lithereal/models/item/litherite_chestplate.json
 21df75f4f7bb673f935e43ef157613660c192b4e assets/lithereal/models/item/litherite_crystal.json
+86082494e36df2d8a7869c62e4825021a3062cf2 assets/lithereal/models/item/litherite_helmet.json
 20c3f835c246b3480d8f9c5bd71e9b4d99ddb34f assets/lithereal/models/item/litherite_hoe.json
+526e861d646bc8372bc5c96a0ed98b320c0d70bb assets/lithereal/models/item/litherite_leggings.json
 f5f77b281432b9941c9a38686b406a54531a6f63 assets/lithereal/models/item/litherite_pickaxe.json
 ed78fdcfa7d269784e57a24b5bfeeea47631c60f assets/lithereal/models/item/litherite_shovel.json
 57285c584f9fb64c65253b409f6f12aff205a42b assets/lithereal/models/item/litherite_sword.json

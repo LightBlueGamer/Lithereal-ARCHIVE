@@ -16,6 +16,10 @@ public class ModBlocksStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         cubeBlock(ModBlocks.LITHERITE_ORE.get());
         cubeBlock(ModBlocks.DEEPSLATE_LITHERITE_ORE.get());
+        cubeBlock(ModBlocks.INFUSED_DEEPSLATE_COAL_ORE.get());
+        cubeBlock(ModBlocks.INFUSED_COAL_ORE.get());
+        cubeBlock(ModBlocks.INFUSED_COAL_BLOCK.get());
+
     }
 
     public void cubeBlock(Block block) {

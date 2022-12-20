@@ -16,6 +16,14 @@ public class ModBlockLootTables extends BlockLoot {
 
         this.add(ModBlocks.DEEPSLATE_LITHERITE_ORE.get(),
                 (block -> createOreDrop(ModBlocks.DEEPSLATE_LITHERITE_ORE.get(), ModItems.LITHERITE_CRYSTAL.get())));
+
+        this.add(ModBlocks.INFUSED_COAL_ORE.get(),
+                (block -> createOreDrop(ModBlocks.INFUSED_COAL_ORE.get(), ModItems.INFUSED_COAL.get())));
+
+        this.add(ModBlocks.INFUSED_DEEPSLATE_COAL_ORE.get(),
+                (block -> createOreDrop(ModBlocks.INFUSED_DEEPSLATE_COAL_ORE.get(), ModItems.INFUSED_COAL.get())));
+
+        this.dropSelf(ModBlocks.INFUSED_COAL_BLOCK.get());
     }
 
     @Override

@@ -9,9 +9,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
-public class ModTagProvider extends BlockTagsProvider {
+public class ModBlockTagProvider extends BlockTagsProvider {
 
-    public ModTagProvider(DataGenerator gen, @Nullable ExistingFileHelper existingFileHelper) {
+    public ModBlockTagProvider(DataGenerator gen, @Nullable ExistingFileHelper existingFileHelper) {
         super(gen, Lithereal.MOD_ID, existingFileHelper);
     }
 
