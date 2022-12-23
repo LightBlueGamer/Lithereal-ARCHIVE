@@ -2,6 +2,7 @@ package net.litecraft.lithereal.datagen;
 
 import net.litecraft.lithereal.Lithereal;
 import net.litecraft.lithereal.block.ModBlocks;
+import net.litecraft.lithereal.entity.ModEntityTypes;
 import net.litecraft.lithereal.item.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.LanguageProvider;
@@ -31,6 +32,8 @@ public class ModLanguageProvider extends LanguageProvider {
         this.addItem(ModItems.LITHERITE_SWORD, "Litherite Sword");
         this.addItem(ModItems.LITHERITE_SHOVEL, "Litherite Shovel");
         this.addItem(ModItems.MOSCER_SPAWN_EGG, "Moscer Spawn Egg");
+
+        this.add(ModEntityTypes.MOSCER.get(), "Moscer");
 
         this.add("itemGroup.lithereal_tab", "Lithereal");
     }

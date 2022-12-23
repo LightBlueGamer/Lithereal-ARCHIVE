@@ -1,0 +1,21 @@
+{
+  "block.lithereal.deepslate_litherite_ore": "Deepslate Litherite Ore",
+  "block.lithereal.infused_coal_block": "Infused Coal Block",
+  "block.lithereal.infused_coal_ore": "Infused Coal Ore",
+  "block.lithereal.infused_deepslate_coal_ore": "Infused Deepslate Coal Ore",
+  "block.lithereal.litherite_ore": "Litherite Ore",
+  "entity.lithereal.moscer": "Moscer",
+  "item.lithereal.infused_coal": "Infused Coal",
+  "item.lithereal.litherite_axe": "Litherite Axe",
+  "item.lithereal.litherite_boots": "Litherite Boots",
+  "item.lithereal.litherite_chestplate": "Litherite Chestplate",
+  "item.lithereal.litherite_crystal": "Litherite Crystal",
+  "item.lithereal.litherite_helmet": "Litherite Helmet",
+  "item.lithereal.litherite_hoe": "Litherite Hoe",
+  "item.lithereal.litherite_leggings": "Litherite Leggings",
+  "item.lithereal.litherite_pickaxe": "Litherite Pickaxe",
+  "item.lithereal.litherite_shovel": "Litherite Shovel",
+  "item.lithereal.litherite_sword": "Litherite Sword",
+  "item.lithereal.moscer_spawn_egg": "Moscer Spawn Egg",
+  "itemGroup.lithereal_tab": "Lithereal"
+}

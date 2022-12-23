@@ -1,7 +1,6 @@
 package net.litecraft.lithereal.datagen;
 
 import net.litecraft.lithereal.Lithereal;
-import net.litecraft.lithereal.block.ModBlocks;
 import net.litecraft.lithereal.item.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;

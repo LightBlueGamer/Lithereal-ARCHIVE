@@ -7,8 +7,12 @@ import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.crafting.SimpleCookingSerializer;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
@@ -113,5 +117,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_litherite_crystal", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.LITHERITE_CRYSTAL.get()).build()))
                 .save(pFinishedRecipeConsumer);
+
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.DEEPSLATE_LITHERITE_ORE.get()),
+                ModItems.LITHERITE_CRYSTAL.get(), 2f, 200);
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.LITHERITE_ORE.get()),
+                ModItems.LITHERITE_CRYSTAL.get(), 2f, 200);
+
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModBlocks.DEEPSLATE_LITHERITE_ORE.get()),
+                ModItems.LITHERITE_CRYSTAL.get(), 2f, 100);
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModBlocks.LITHERITE_ORE.get()),
+                ModItems.LITHERITE_CRYSTAL.get(), 2f, 100);
+
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.INFUSED_DEEPSLATE_COAL_ORE.get()),
+                ModItems.LITHERITE_CRYSTAL.get(), 0.1f, 200);
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.INFUSED_COAL_ORE.get()),
+                ModItems.LITHERITE_CRYSTAL.get(), 0.1f, 200);
+
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModBlocks.INFUSED_DEEPSLATE_COAL_ORE.get()),
+                ModItems.LITHERITE_CRYSTAL.get(), 0.1f, 100);
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModBlocks.INFUSED_COAL_ORE.get()),
+                ModItems.LITHERITE_CRYSTAL.get(), 0.1f, 100);
     }
 }
