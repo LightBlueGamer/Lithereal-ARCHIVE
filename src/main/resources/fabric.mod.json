@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "lithereal",
+  "version": "${version}",
+
+  "name": "Lithereal",
+  "description": "",
+  "authors": [
+    "Tim (Light)"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/LightBlueGamer/Lithereal_1.19/"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/lithereal/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.litecraft.lithereal.Lithereal"
+    ],
+    "fabric-datagen": [
+      "net.litecraft.lithereal.datagen.ModDataGeneration"
+    ],
+    "client": [
+      "net.litecraft.lithereal.LitherealClient"
+    ]
+  },
+  "mixins": [
+    "lithereal.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

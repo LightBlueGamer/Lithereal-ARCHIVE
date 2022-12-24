@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.moscer.move": {
+			"loop": true,
+			"animation_length": 0.16667,
+			"bones": {
+				"bone": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1],
+							"easing": "easeInBack",
+							"easingArgs": [5]
+						},
+						"0.0833": {
+							"vector": [1, 1, 1.3],
+							"easing": "linear"
+						},
+						"0.1667": {
+							"vector": [1, 1, 1],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
